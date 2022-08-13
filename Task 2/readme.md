@@ -1,7 +1,7 @@
-Hello Guys,
 
 Here I have uploaded the solutions for Task 2 assigned by Innomatics in the internship programm.
 In the task 2 they have assigned to solove the 19 question based on basic python on Hackerrank.
+
 Please find the attached below link for your reference.:
 https://www.hackerrank.com/domains/python?filters%5Bsubdomains%5D%5B%5D=py-basic-data-types&filters%5Bsubdomains%5D%5B%5D=py-sets
  
