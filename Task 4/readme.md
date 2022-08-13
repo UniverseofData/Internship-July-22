@@ -1,5 +1,5 @@
-   Hello Everyone,
-   Please find the  below attached link of Task-4 Questions.
+  
+   Please find the below attached link of Task-4 Questions.
    
    https://www.hackerrank.com/domains/python?filters%5Bsubdomains%5D%5B%5D=py-strings
    
