@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static',filename='styles/index.css') }}">
+    <title>Regex101</title>
+</head>
+<body>
+    <div class="logo">
+        <h1 class="title">Innomatic Research Labs </h1>
+        <img src="../static/images/pngegg.png" alt="" style="width: 120px; padding-left: 180vh; padding-top: 0px;">
+    </div>
+
+    <div class="form">
+        <h1 class="project_title"> REGEX101 <span><sup>clone</sup></span></h1>
+        <form action="" method="POST">
+            <label for="expression">Regex String :</label>
+            <input type="text" name="expression" id="expression">
+            <br>
+            <br>
+            <label for="find_string">Match String :</label>
+            <input type="text" name="find_string" id="find_string">
+            <br>
+            <button type="submit" class="button">Submit</button>
+        </form>
+    </div>
+
+    <ul>
+        {% for word in m %}
+            <h2>Match Found : {{word.group()}}</h2>
+        {%endfor%}
+    </ul>
+
+</body>
+</html>
