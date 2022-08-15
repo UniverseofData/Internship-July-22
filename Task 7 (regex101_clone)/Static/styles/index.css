@@ -1,0 +1,47 @@
+*{
+    margin : 0px;
+    padding : 0px;
+}
+
+body{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #3eb5a9;
+}
+
+
+.title{
+    font-size: 50px;
+}
+
+.project_title{
+    font-size: 100px;
+}
+
+span{
+    font-size: 80px;
+}
+
+.form{
+    padding-left: 450px;
+    padding-top: 80px;
+}
+
+ul{
+    padding-left: 500px;
+    padding-top: 80px;
+}
+
+.button{
+        background-color: lightseagreen; /* Green */
+        border-radius: 12px;
+        color: black;
+        padding: 10px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+}
